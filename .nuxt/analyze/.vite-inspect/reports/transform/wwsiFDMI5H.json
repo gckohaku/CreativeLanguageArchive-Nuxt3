@@ -1,0 +1,199 @@
+{
+  "resolvedId": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?vue&type=style&index=0&scoped=a41ef6d2&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n// style here\n",
+      "start": 1712048461487,
+      "end": 1712048461487
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712048461487,
+      "end": 1712048461487,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712048461487,
+      "end": 1712048461487,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712048461487,
+      "end": 1712048461487,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "[Error]",
+      "start": 1712048461487,
+      "end": 1712048461489,
+      "order": "normal",
+      "error": {
+        "message": "Preprocessor dependency \"sass\" not found. Did you install it? Try `pnpm add -D sass`.",
+        "stack": [
+          {
+            "functionName": "loadPreprocessorPath",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32628,
+            "columnNumber": 19,
+            "source": "    at loadPreprocessorPath (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32628:19)"
+          },
+          {
+            "functionName": "process",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32761,
+            "columnNumber": 30,
+            "source": "    at process (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32761:30)"
+          },
+          {
+            "functionName": "compileCSSPreprocessors",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32066,
+            "columnNumber": 36,
+            "source": "    at compileCSSPreprocessors (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32066:36)"
+          },
+          {
+            "functionName": "compileCSS",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32116,
+            "columnNumber": 42,
+            "source": "    at compileCSS (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32116:42)"
+          },
+          {
+            "functionName": "async Object.transform",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 31514,
+            "columnNumber": 56,
+            "source": "    at async Object.transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:31514:56)"
+          },
+          {
+            "fileName": "async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs",
+            "lineNumber": 377,
+            "columnNumber": 17,
+            "source": "    at async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs:377:17"
+          },
+          {
+            "functionName": "async transform",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
+            "lineNumber": 18497,
+            "columnNumber": 16,
+            "source": "    at async transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18497:16)"
+          },
+          {
+            "functionName": "async ModuleLoader.addModuleSource",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
+            "lineNumber": 18713,
+            "columnNumber": 36,
+            "source": "    at async ModuleLoader.addModuleSource (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18713:36)"
+          }
+        ],
+        "raw": {
+          "code": "PLUGIN_ERROR",
+          "plugin": "vite:css",
+          "hook": "transform",
+          "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?vue&type=style&index=0&scoped=a41ef6d2&lang.scss",
+          "watchFiles": [
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/entry.js",
+            "package.json",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/package.json",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vue@3.4.21/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/nuxt.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/error.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ufo@1.5.3/node_modules/ufo/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/plugins/router.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/payload.client.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.21/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/plugin.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/h3@1.11.1/node_modules/h3/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/router.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+runtime-dom@3.4.21/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unctx@2.3.1/node_modules/unctx/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/shared/ofetch.37386b05.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/injections.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/island-renderer.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/payload.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/utils.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+dom@1.9.4/node_modules/@unhead/dom/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/ready.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/chunk.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/manifest.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/app.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/storages.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pinia-plugin-persistedstate@3.2.1_pinia@2.1.7/node_modules/pinia-plugin-persistedstate/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vue-router@4.3.0_vue@3.4.21/node_modules/vue-router/dist/vue-router.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/validate.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/router.options.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Tags.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/iron-webcrypto@1.1.0/node_modules/iron-webcrypto/dist/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pinia@2.1.7_vue@3.4.21/node_modules/pinia/dist/pinia.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/cookie-es@1.1.0/node_modules/cookie-es/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/http/_request.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/uncrypto@0.1.3/node_modules/uncrypto/dist/crypto.web.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/http/_response.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unhead@1.9.4/node_modules/unhead/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/config.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+shared@1.9.4/node_modules/@unhead/shared/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/compat/idle-callback.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/types.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+shared@3.4.21/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/utils.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/index.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/compat/vue-demi.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/net/socket.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/_internal/utils.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/stream/readable.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/stream/writable.mjs",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/parse.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/uneval.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/stringify.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/component.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/hydrate.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/asyncData.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/once.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/fetch.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/state.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/cookie.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/ssr.js",
+            "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/preload.js"
+          ]
+        }
+      }
+    }
+  ]
+}

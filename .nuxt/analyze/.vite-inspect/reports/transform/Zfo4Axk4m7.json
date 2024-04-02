@@ -1,0 +1,223 @@
+{
+  "resolvedId": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { definePageMeta } from 'nuxt/dist/pages/runtime';\n\ndefinePageMeta({\n\talias: [\"/\", \"index\"],\n});\n</script>\n\n<template>\n\t<section class=\"before-index\">\n\t\t<h2>このサイトはなに？</h2>\n\t\t<p>このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。<br>そういう場所が必要だと感じたから用意した。</p>\n\t\t<p>(現在、アルファ版として公開中です。<br>今後、予告無しに膨大な変更が加えられる可能性があります。)</p>\n\t</section>\n\n\t<div class=\"index-container\">\n\t\t<ul>\n\t\t\t<li>\n\t\t\t\t<RouterLink to=\"/list\">リスト</RouterLink>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<RouterLink to=\"/tag-list\">タグ一覧</RouterLink>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<RouterLink to=\"/random\">ランダム</RouterLink>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n</template>\n\n<style scoped lang=\"scss\">\nh2, p {\n\ttext-align: center;\n}\n\n.index-container {\n\tdisplay: flex;\n\tjustify-content: center;\n\tpadding-block-start: 2rem;\n\n\tul {\n\t\theight: 100%;\n\t\tlist-style: none;\n\t\tfont-size: 2rem;\n\t\tfont-weight: bold;\n\n\t\tli {\n\t\t\ttext-decoration: none;\n\t\t\tposition: relative;\n\t\t\tmargin-block-end: 1rem;\n\n\t\t\t&:has(a:hover)::before {\n\t\t\t\twidth: calc(100% + 1rem);\n\t\t\t}\n\n\t\t\t&::before {\n\t\t\t\tcontent: '';\n\t\t\t\tdisplay: block;\n\t\t\t\tbackground-color: #e0f0ff;\n\t\t\t\tposition: absolute;\n\t\t\t\tz-index: -1;\n\t\t\t\tleft: 0;\n\t\t\t\tbottom: 0;\n\t\t\t\twidth: 0;\n\t\t\t\theight: 100%;\n\t\t\t\ttransition: all .3s;\n\t\t\t}\n\n\t\t\ta {\n\n\t\t\t\ttext-decoration: none;\n\t\t\t\twidth: 100%;\n\t\t\t\tdisplay: block;\n\t\t\t\tpadding-inline: .5rem;\n\t\t\t\tcolor: #3050a0;\n\n\t\t\t\t&::after {\n\t\t\t\t\tdisplay: block;\n\t\t\t\t\tcontent: '';\n\t\t\t\t\tposition: absolute;\n\t\t\t\t\tleft: 0;\n\t\t\t\t\tbottom: 0;\n\t\t\t\t\twidth: calc(100% + 1rem);\n\t\t\t\t\tborder-block-end: 2px #3050a0 solid;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}\n</style>",
+      "start": 1712048460445,
+      "end": 1712048460635,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712048460635,
+      "end": 1712048460635,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712048460635,
+      "end": 1712048460635,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712048460635,
+      "end": 1712048460636,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1712048460636,
+      "end": 1712048460636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712048460636,
+      "end": 1712048460636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712048460636,
+      "end": 1712048460636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712048460636,
+      "end": 1712048460636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?vue&type=style&index=0&scoped=25b1ba17&lang.scss\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-25b1ba17\"]]);\n",
+      "start": 1712048460636,
+      "end": 1712048461392,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712048461392,
+      "end": 1712048461392,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712048461393,
+      "end": 1712048461393,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712048461393,
+      "end": 1712048461394,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1712048461394,
+      "end": 1712048461394,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712048461435,
+      "end": 1712048461435,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712048461435,
+      "end": 1712048461435,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712048461435,
+      "end": 1712048461435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712048461436,
+      "end": 1712048461436,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1712048461436,
+      "end": 1712048461436,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712048461436,
+      "end": 1712048461436,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712048461437,
+      "end": 1712048461437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712048461437,
+      "end": 1712048461437,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712048461437,
+      "end": 1712048461437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712048461437,
+      "end": 1712048461437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712048461437,
+      "end": 1712048461437,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712048461438,
+      "end": 1712048461438,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712048461439,
+      "end": 1712048461441,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712048461441,
+      "end": 1712048461441,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "export { default } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
+      "start": 1712048461444,
+      "end": 1712048461445,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1712048461445,
+      "end": 1712048461445,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1712048461445,
+      "end": 1712048461445,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1712048461446,
+      "end": 1712048461446,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712048461447,
+      "end": 1712048461447,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712048461447,
+      "end": 1712048461448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712048461448,
+      "end": 1712048461448,
+      "order": "normal"
+    }
+  ]
+}

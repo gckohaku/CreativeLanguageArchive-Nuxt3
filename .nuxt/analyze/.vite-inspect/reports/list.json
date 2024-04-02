@@ -1,0 +1,4685 @@
+{
+  "root": "/home/gckohaku/repos/Nuxt3-LanguageArchive",
+  "modules": [
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 603
+        },
+        {
+          "name": "vite:define",
+          "transform": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 613,
+      "invokeCount": 1,
+      "sourceSize": 391,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/app.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 160
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 164,
+      "invokeCount": 1,
+      "sourceSize": 60,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/common/contentsData",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 24
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 7,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/components/ContentInfoCard.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 86
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 86
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 7,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/components/TagsArea.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 83
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 83
+        }
+      ],
+      "virtual": false,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 7,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 225
+        },
+        {
+          "name": "vite:vue",
+          "transform": 16
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 3
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 245,
+      "invokeCount": 1,
+      "sourceSize": 5283,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=f5c0a1bb&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css",
+          "transform": 285
+        },
+        {
+          "name": "vite:vue",
+          "transform": 12
+        }
+      ],
+      "virtual": true,
+      "totalTime": 298,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 233
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 240,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=b86faff8&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 282
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 286,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 248
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 255,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6ee747b9&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 283
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 290,
+      "invokeCount": 1,
+      "sourceSize": 1946,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 113
+        },
+        {
+          "name": "vite:vue",
+          "transform": 33
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 34
+        }
+      ],
+      "virtual": false,
+      "totalTime": 180,
+      "invokeCount": 1,
+      "sourceSize": 106155,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=7af2ada2&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 389
+        },
+        {
+          "name": "vite:vue",
+          "transform": 43
+        }
+      ],
+      "virtual": true,
+      "totalTime": 432,
+      "invokeCount": 1,
+      "sourceSize": 11760,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.21/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 183
+        },
+        {
+          "name": "vite:define",
+          "transform": 130
+        }
+      ],
+      "virtual": false,
+      "totalTime": 313,
+      "invokeCount": 1,
+      "sourceSize": 481,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/plugin.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 189
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 191,
+      "invokeCount": 1,
+      "sourceSize": 518,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/storages.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 181
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 181,
+      "invokeCount": 1,
+      "sourceSize": 1261,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+dom@1.9.4/node_modules/@unhead/dom/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 182
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 21
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 182,
+      "invokeCount": 1,
+      "sourceSize": 5233,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+shared@1.9.4/node_modules/@unhead/shared/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 109
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 109,
+      "invokeCount": 1,
+      "sourceSize": 20525,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 177
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 22
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 177,
+      "invokeCount": 1,
+      "sourceSize": 3705,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 117
+        },
+        {
+          "name": "vite:define",
+          "transform": 115
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 232,
+      "invokeCount": 1,
+      "sourceSize": 2633,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 112
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 112,
+      "invokeCount": 1,
+      "sourceSize": 1035,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/api.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 31
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 31,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/app.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 33
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 33,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/component.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 34
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 34,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 35
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 35,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 37
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 37,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 583
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 583,
+      "invokeCount": 1,
+      "sourceSize": 169,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/api/util.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 38
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 38,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/const.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 588
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 588,
+      "invokeCount": 1,
+      "sourceSize": 114,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/env.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 588
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 588,
+      "invokeCount": 1,
+      "sourceSize": 457,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 250
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 250,
+      "invokeCount": 1,
+      "sourceSize": 1021,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/plugin.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 606
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 606,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/proxy.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 585
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 585,
+      "invokeCount": 1,
+      "sourceSize": 3535,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/time.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 629
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 629,
+      "invokeCount": 1,
+      "sourceSize": 652,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+reactivity@3.4.21/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 120
+        },
+        {
+          "name": "vite:define",
+          "transform": 24
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 144,
+      "invokeCount": 1,
+      "sourceSize": 34962,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 218
+        },
+        {
+          "name": "vite:define",
+          "transform": 495
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 713,
+      "invokeCount": 1,
+      "sourceSize": 251052,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+runtime-dom@3.4.21/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 208
+        },
+        {
+          "name": "vite:define",
+          "transform": 80
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 288,
+      "invokeCount": 1,
+      "sourceSize": 49371,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@vue+shared@3.4.21/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 215
+        },
+        {
+          "name": "vite:define",
+          "transform": 144
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 359,
+      "invokeCount": 1,
+      "sourceSize": 20762,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/cookie-es@1.1.0/node_modules/cookie-es/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 125
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 125,
+      "invokeCount": 1,
+      "sourceSize": 3791,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 111
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "nuxt:resolve-bare-imports",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 111,
+      "invokeCount": 1,
+      "sourceSize": 2052,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 203
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 203,
+      "invokeCount": 1,
+      "sourceSize": 2206,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 96
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 96,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/constants.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 298
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 298,
+      "invokeCount": 1,
+      "sourceSize": 183,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/parse.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 155
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 155,
+      "invokeCount": 1,
+      "sourceSize": 3053,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/stringify.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 162
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 162,
+      "invokeCount": 1,
+      "sourceSize": 4304,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/uneval.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 158
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 158,
+      "invokeCount": 1,
+      "sourceSize": 6924,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/devalue@4.3.2/node_modules/devalue/src/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 309
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 309,
+      "invokeCount": 1,
+      "sourceSize": 1944,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/h3@1.11.1/node_modules/h3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 302
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 302,
+      "invokeCount": 1,
+      "sourceSize": 70063,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 201
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 201,
+      "invokeCount": 1,
+      "sourceSize": 8302,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/iron-webcrypto@1.1.0/node_modules/iron-webcrypto/dist/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 171
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 171,
+      "invokeCount": 1,
+      "sourceSize": 11166,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 603
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 603,
+      "invokeCount": 1,
+      "sourceSize": 1531,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/compat/capi.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 340
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 340,
+      "invokeCount": 1,
+      "sourceSize": 398,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 204
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 205,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/compat/vue-demi.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 229
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 275
+        }
+      ],
+      "virtual": false,
+      "totalTime": 229,
+      "invokeCount": 1,
+      "sourceSize": 112,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/client-only.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 88
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 105
+        }
+      ],
+      "virtual": false,
+      "totalTime": 88,
+      "invokeCount": 1,
+      "sourceSize": 3563,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 195
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 195,
+      "invokeCount": 1,
+      "sourceSize": 49,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 197
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 197,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 198
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 198,
+      "invokeCount": 1,
+      "sourceSize": 711,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 205
+        },
+        {
+          "name": "vite:vue",
+          "transform": 14
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 219,
+      "invokeCount": 1,
+      "sourceSize": 1732,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 604
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 605,
+      "invokeCount": 1,
+      "sourceSize": 10768,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 58
+        },
+        {
+          "name": "vite:vue",
+          "transform": 52
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 6
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 118,
+      "invokeCount": 1,
+      "sourceSize": 2567,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 226
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 227,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 246
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 341
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 247,
+      "invokeCount": 1,
+      "sourceSize": 3574,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/asyncData.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 434
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 440,
+      "invokeCount": 1,
+      "sourceSize": 8613,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/chunk.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 161
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 161,
+      "invokeCount": 1,
+      "sourceSize": 889,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/component.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 138
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 139,
+      "invokeCount": 1,
+      "sourceSize": 2158,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/cookie.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 446
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 446,
+      "invokeCount": 1,
+      "sourceSize": 5590,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 62
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 64,
+      "invokeCount": 1,
+      "sourceSize": 1236,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/fetch.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 449
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 450,
+      "invokeCount": 1,
+      "sourceSize": 3382,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/hydrate.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 144
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 145,
+      "invokeCount": 1,
+      "sourceSize": 367,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/id.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 599
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 599,
+      "invokeCount": 1,
+      "sourceSize": 1692,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 196
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 196,
+      "invokeCount": 1,
+      "sourceSize": 1357,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/manifest.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 179
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 249
+        }
+      ],
+      "virtual": false,
+      "totalTime": 179,
+      "invokeCount": 1,
+      "sourceSize": 1309,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/once.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 447
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 447,
+      "invokeCount": 1,
+      "sourceSize": 793,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 185
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 186,
+      "invokeCount": 1,
+      "sourceSize": 3826,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 509
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 509,
+      "invokeCount": 1,
+      "sourceSize": 1600,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/preview.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 608
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 608,
+      "invokeCount": 1,
+      "sourceSize": 1893,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 163
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 163,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 307
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 135
+        },
+        {
+          "name": "alias",
+          "resolveId": 120
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 309,
+      "invokeCount": 1,
+      "sourceSize": 5939,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/ssr.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 503
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 503,
+      "invokeCount": 1,
+      "sourceSize": 1659,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/state.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 456
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 456,
+      "invokeCount": 1,
+      "sourceSize": 1434,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/composables/url.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 539
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 539,
+      "invokeCount": 1,
+      "sourceSize": 233,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 95
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:define",
+          "transform": 147
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 243,
+      "invokeCount": 1,
+      "sourceSize": 1574,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 10
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 13,
+      "invokeCount": 1,
+      "sourceSize": 2390,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 183
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 255
+        },
+        {
+          "name": "alias",
+          "resolveId": 229
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 183,
+      "invokeCount": 1,
+      "sourceSize": 263,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 185
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 187,
+      "invokeCount": 1,
+      "sourceSize": 527,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 56
+        },
+        {
+          "name": "replace",
+          "transform": 4
+        },
+        {
+          "name": "vite:define",
+          "transform": 14
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 214
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 74,
+      "invokeCount": 1,
+      "sourceSize": 7278,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 176
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 176,
+      "invokeCount": 1,
+      "sourceSize": 814,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 184
+        }
+      ],
+      "virtual": false,
+      "totalTime": 184,
+      "invokeCount": 1,
+      "sourceSize": 1042,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 171
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 171,
+      "invokeCount": 1,
+      "sourceSize": 1107,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 116
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 120,
+      "invokeCount": 1,
+      "sourceSize": 1661,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/types.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 33,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 235
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 235,
+      "invokeCount": 1,
+      "sourceSize": 84,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 126
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 126,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 179
+        }
+      ],
+      "virtual": false,
+      "totalTime": 179,
+      "invokeCount": 1,
+      "sourceSize": 1243,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 138
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 9
+        }
+      ],
+      "virtual": false,
+      "totalTime": 148,
+      "invokeCount": 1,
+      "sourceSize": 8341,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/router.options.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 213
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 213,
+      "invokeCount": 1,
+      "sourceSize": 1742,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 169
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 169,
+      "invokeCount": 1,
+      "sourceSize": 873,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/validate.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 191
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 193,
+      "invokeCount": 1,
+      "sourceSize": 974,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 59
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "nuxt:resolve-bare-imports",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 59,
+      "invokeCount": 1,
+      "sourceSize": 891,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/shared/ofetch.37386b05.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 201
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 201,
+      "invokeCount": 1,
+      "sourceSize": 8921,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 122
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 122,
+      "invokeCount": 1,
+      "sourceSize": 20179,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 242
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 242,
+      "invokeCount": 1,
+      "sourceSize": 272,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/shared/pathe.ff20891b.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 599
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 599,
+      "invokeCount": 1,
+      "sourceSize": 6539,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pinia-plugin-persistedstate@3.2.1_pinia@2.1.7/node_modules/pinia-plugin-persistedstate/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 185
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 185,
+      "invokeCount": 1,
+      "sourceSize": 4258,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/pinia@2.1.7_vue@3.4.21/node_modules/pinia/dist/pinia.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 179
+        },
+        {
+          "name": "vite:define",
+          "transform": 29
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 208,
+      "invokeCount": 1,
+      "sourceSize": 74425,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 120
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 120,
+      "invokeCount": 1,
+      "sourceSize": 7778,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/ufo@1.5.3/node_modules/ufo/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 44
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "nuxt:resolve-bare-imports",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 44,
+      "invokeCount": 1,
+      "sourceSize": 19610,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/uncrypto@0.1.3/node_modules/uncrypto/dist/crypto.web.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 113
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 113,
+      "invokeCount": 1,
+      "sourceSize": 348,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unctx@2.3.1/node_modules/unctx/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 198
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 198,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/_internal/utils.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 144
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 144,
+      "invokeCount": 1,
+      "sourceSize": 895,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/events/_events.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 25
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 25,
+      "invokeCount": 1,
+      "sourceSize": 6481,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/events/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 300
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 300,
+      "invokeCount": 1,
+      "sourceSize": 218,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/http/_request.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 107
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 107,
+      "invokeCount": 1,
+      "sourceSize": 1129,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/http/_response.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 100
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 100,
+      "invokeCount": 1,
+      "sourceSize": 2193,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/net/socket.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 143
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 143,
+      "invokeCount": 1,
+      "sourceSize": 1425,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/stream/duplex.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 305
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 305,
+      "invokeCount": 1,
+      "sourceSize": 678,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/stream/readable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 146
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 146,
+      "invokeCount": 1,
+      "sourceSize": 2697,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/node/stream/writable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 151
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 151,
+      "invokeCount": 1,
+      "sourceSize": 2357,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/unhead@1.9.4/node_modules/unhead/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 93
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 93,
+      "invokeCount": 1,
+      "sourceSize": 18246,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vue-router@4.3.0_vue@3.4.21/node_modules/vue-router/dist/vue-router.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 179
+        },
+        {
+          "name": "vite:define",
+          "transform": 68
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 247,
+      "invokeCount": 1,
+      "sourceSize": 147687,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vue@3.4.21/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 54
+        },
+        {
+          "name": "vite:define",
+          "transform": 21
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 75,
+      "invokeCount": 1,
+      "sourceSize": 580,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/page-contents/index",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 24
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3,
+      "invokeCount": 1,
+      "sourceSize": 7,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 192
+        },
+        {
+          "name": "vite:vue",
+          "transform": 727
+        }
+      ],
+      "virtual": false,
+      "totalTime": 919,
+      "invokeCount": 1,
+      "sourceSize": 279,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 172
+        },
+        {
+          "name": "vite:vue",
+          "transform": 775
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 949,
+      "invokeCount": 1,
+      "sourceSize": 279,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 117
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 7
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 125,
+      "invokeCount": 1,
+      "sourceSize": 647,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 142
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "nuxt:route-injection-plugin",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 151,
+      "invokeCount": 1,
+      "sourceSize": 647,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Content.vue?vue&type=style&index=0&scoped=a41ef6d2&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 15,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 191
+        },
+        {
+          "name": "vite:vue",
+          "transform": 726
+        }
+      ],
+      "virtual": false,
+      "totalTime": 917,
+      "invokeCount": 1,
+      "sourceSize": 1798,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 190
+        },
+        {
+          "name": "vite:vue",
+          "transform": 756
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 947,
+      "invokeCount": 1,
+      "sourceSize": 1798,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 109
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 112,
+      "invokeCount": 1,
+      "sourceSize": 2660,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 129
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 130,
+      "invokeCount": 1,
+      "sourceSize": 2660,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Home.vue?vue&type=style&index=0&scoped=25b1ba17&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 891,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 188
+        },
+        {
+          "name": "vite:vue",
+          "transform": 726
+        }
+      ],
+      "virtual": false,
+      "totalTime": 914,
+      "invokeCount": 1,
+      "sourceSize": 259,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 194
+        },
+        {
+          "name": "vite:vue",
+          "transform": 751
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 946,
+      "invokeCount": 1,
+      "sourceSize": 259,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 112
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 7
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 119,
+      "invokeCount": 1,
+      "sourceSize": 850,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 124
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 131,
+      "invokeCount": 1,
+      "sourceSize": 850,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue?vue&type=style&index=0&scoped=220f72fd&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css",
+          "transform": 6
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 8,
+      "invokeCount": 1,
+      "sourceSize": 33,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 186
+        },
+        {
+          "name": "vite:vue",
+          "transform": 725
+        }
+      ],
+      "virtual": false,
+      "totalTime": 911,
+      "invokeCount": 1,
+      "sourceSize": 161,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 199
+        },
+        {
+          "name": "vite:vue",
+          "transform": 743
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 943,
+      "invokeCount": 1,
+      "sourceSize": 161,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 110
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 114,
+      "invokeCount": 1,
+      "sourceSize": 378,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 112
+        }
+      ],
+      "virtual": true,
+      "totalTime": 112,
+      "invokeCount": 1,
+      "sourceSize": 378,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue?vue&type=style&index=0&scoped=17541a1f&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 18,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 175
+        },
+        {
+          "name": "vite:vue",
+          "transform": 722
+        }
+      ],
+      "virtual": false,
+      "totalTime": 897,
+      "invokeCount": 1,
+      "sourceSize": 742,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 185
+        },
+        {
+          "name": "vite:vue",
+          "transform": 738
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 926,
+      "invokeCount": 1,
+      "sourceSize": 742,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 144
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 151,
+      "invokeCount": 1,
+      "sourceSize": 1291,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 116
+        }
+      ],
+      "virtual": true,
+      "totalTime": 116,
+      "invokeCount": 1,
+      "sourceSize": 1291,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?vue&type=style&index=0&scoped=47671cad&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 15,
+      "distSize": 7
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Tags.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 173
+        },
+        {
+          "name": "vite:vue",
+          "transform": 717
+        }
+      ],
+      "virtual": false,
+      "totalTime": 890,
+      "invokeCount": 1,
+      "sourceSize": 613,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Tags.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 191
+        },
+        {
+          "name": "vite:vue",
+          "transform": 731
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 922,
+      "invokeCount": 1,
+      "sourceSize": 613,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Tags.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 109
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 113,
+      "invokeCount": 1,
+      "sourceSize": 974,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Tags.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 113
+        }
+      ],
+      "virtual": true,
+      "totalTime": 113,
+      "invokeCount": 1,
+      "sourceSize": 974,
+      "distSize": 0
+    },
+    {
+      "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/stores/contents.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 34
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 38,
+      "invokeCount": 1,
+      "sourceSize": 673,
+      "distSize": 0
+    },
+    {
+      "id": "Error: Missing \"./dist/pages/runtime\" specifier in \"nuxt\" package\n    at e (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:47585:25)\n    at n (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:47585:627)\n    at o (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:47585:1297)\n    at resolveExportsOrImports (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:48275:20)\n    at resolveDeepImport (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:48294:31)\n    at tryNodeResolve (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:48019:20)\n    at Object.resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:47769:28)\n    at file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs:435:26\n    at plugin.<computed> (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs:364:14)\n    at file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:19595:40\n    at async PluginDriver.hookFirstAndGetPlugin (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:19495:28)\n    at async resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18176:26)\n    at async ModuleLoader.resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18579:15)\n    at async Object.resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:8237:10)\n    at async PluginDriver.hookFirstAndGetPlugin (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:19495:28)\n    at async resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18176:26)\n    at async ModuleLoader.resolveId (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18579:15)\n    at async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18883:50",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/app-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 77,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 105,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/components.plugin.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 117,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/css.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 8
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 33,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/error-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 223,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/fetch.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 168,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/layouts.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/middleware.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 558,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/nitro.client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 70,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/nuxt.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 1165,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/pages.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 53,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/paths.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 641,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/plugins/client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 2523,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/root-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 217,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/router.options.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 362,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/routes.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 2901,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/test-component-wrapper.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 226,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/unhead-plugins.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/vue-router-stub.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 27,
+      "distSize": 0
+    }
+  ],
+  "ssrModules": []
+}

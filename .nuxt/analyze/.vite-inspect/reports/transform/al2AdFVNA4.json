@@ -1,0 +1,17 @@
+{
+  "resolvedId": "virtual:nuxt:/home/gckohaku/repos/Nuxt3-LanguageArchive/.nuxt/css.mjs",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1712048459989,
+      "end": 1712048459989
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712048459989,
+      "end": 1712048459989,
+      "order": "normal"
+    }
+  ]
+}

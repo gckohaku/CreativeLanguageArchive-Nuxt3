@@ -1,0 +1,102 @@
+{
+  "resolvedId": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?vue&type=style&index=0&scoped=47671cad&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n// style here\n",
+      "start": 1712048461512,
+      "end": 1712048461512
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712048461512,
+      "end": 1712048461512,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712048461512,
+      "end": 1712048461513,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712048461513,
+      "end": 1712048461513,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "[Error]",
+      "start": 1712048461513,
+      "end": 1712048461514,
+      "order": "normal",
+      "error": {
+        "message": "Preprocessor dependency \"sass\" not found. Did you install it? Try `pnpm add -D sass`.",
+        "stack": [
+          {
+            "functionName": "loadPreprocessorPath",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32628,
+            "columnNumber": 19,
+            "source": "    at loadPreprocessorPath (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32628:19)"
+          },
+          {
+            "functionName": "process",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32761,
+            "columnNumber": 30,
+            "source": "    at process (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32761:30)"
+          },
+          {
+            "functionName": "compileCSSPreprocessors",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32066,
+            "columnNumber": 36,
+            "source": "    at compileCSSPreprocessors (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32066:36)"
+          },
+          {
+            "functionName": "compileCSS",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 32116,
+            "columnNumber": 42,
+            "source": "    at compileCSS (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32116:42)"
+          },
+          {
+            "functionName": "async Object.transform",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
+            "lineNumber": 31514,
+            "columnNumber": 56,
+            "source": "    at async Object.transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:31514:56)"
+          },
+          {
+            "fileName": "async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs",
+            "lineNumber": 377,
+            "columnNumber": 17,
+            "source": "    at async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs:377:17"
+          },
+          {
+            "functionName": "async transform",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
+            "lineNumber": 18497,
+            "columnNumber": 16,
+            "source": "    at async transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18497:16)"
+          },
+          {
+            "functionName": "async ModuleLoader.addModuleSource",
+            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
+            "lineNumber": 18713,
+            "columnNumber": 36,
+            "source": "    at async ModuleLoader.addModuleSource (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18713:36)"
+          }
+        ],
+        "raw": {
+          "code": "PLUGIN_ERROR",
+          "plugin": "vite:css",
+          "hook": "transform",
+          "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/TagContents.vue?vue&type=style&index=0&scoped=47671cad&lang.scss"
+        }
+      }
+    }
+  ]
+}

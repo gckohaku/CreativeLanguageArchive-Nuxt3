@@ -1,0 +1,17 @@
+{
+  "resolvedId": "/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/types.js",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1712048460874,
+      "end": 1712048460874
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712048460874,
+      "end": 1712048460874,
+      "order": "normal"
+    }
+  ]
+}
