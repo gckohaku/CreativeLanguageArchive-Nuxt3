@@ -27,12 +27,6 @@
       "@unhead/vue": [
         "../node_modules/.pnpm/@unhead+vue@1.9.4_vue@3.4.21/node_modules/@unhead/vue"
       ],
-      "vue": [
-        "../node_modules/.pnpm/vue@3.4.21/node_modules/vue"
-      ],
-      "vue-router": [
-        "../node_modules/.pnpm/vue-router@4.3.0_vue@3.4.21/node_modules/vue-router"
-      ],
       "@nuxt/schema": [
         "../node_modules/.pnpm/@nuxt+schema@3.11.1/node_modules/@nuxt/schema"
       ],
@@ -77,11 +71,19 @@
       ],
       "public": [
         "../public"
+      ],
+      "public/*": [
+        "../public/*"
+      ],
+      "pinia": [
+        "../node_modules/.pnpm/pinia@2.1.7_vue@3.4.21/node_modules/pinia/dist/pinia"
       ]
     }
   },
   "include": [
     "./types/nitro-nuxt.d.ts",
+    "../node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.21/node_modules/@pinia/nuxt/runtime/server",
+    "../node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/runtime/server",
     "../node_modules/.pnpm/@nuxt+devtools@1.1.5_@unocss+reset@0.58.9_floating-vue@5.2.2_nuxt@3.11.1_unocss@0.58.9_vite@5.2.7_vue@3.4.21/node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",
