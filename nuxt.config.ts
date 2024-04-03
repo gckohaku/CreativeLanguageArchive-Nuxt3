@@ -4,8 +4,14 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
 
   runtimeConfig: {
-    public: {
-      baseUrl: "/CreativeLanguageArchive/",
+    app: {
+      baseURL: "/CreativeLanguageArchive-Nuxt3",
     },
   },
+
+  app: {
+    baseURL: "/CreativeLanguageArchive-Nuxt3",
+  },
+
+  target: "static",
 });

@@ -17,8 +17,6 @@ declare module 'nuxt/schema' {
    },
   }
   interface PublicRuntimeConfig {
-   baseUrl: string,
-
    persistedState: {
       storage: string,
 

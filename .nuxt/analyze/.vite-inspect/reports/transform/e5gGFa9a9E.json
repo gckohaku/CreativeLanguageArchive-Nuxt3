@@ -4,38 +4,38 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-ffdb3a7b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"section\", { class: \"before-index\" }, [\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1))\nconst _hoisted_2 = { class: \"index-container\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Index',\n  setup(__props) {\n\n\ndefinePageMeta({\n\talias: [\"/\", \"\", \"/home\"],\n});\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_NuxtPage),\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"リスト\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"タグ一覧\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"ランダム\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ], 64))\n}\n}\n\n})",
-      "start": 1712132710541,
-      "end": 1712132710541
+      "start": 1712136054138,
+      "end": 1712136054138
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712132710541,
-      "end": 1712132710541,
+      "start": 1712136054138,
+      "end": 1712136054138,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712132710541,
-      "end": 1712132710541,
+      "start": 1712136054138,
+      "end": 1712136054138,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712132710541,
-      "end": 1712132710541,
+      "start": 1712136054138,
+      "end": 1712136054138,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712132710541,
-      "end": 1712132710542,
+      "start": 1712136054138,
+      "end": 1712136054138,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = _resolveComponent(\"NuxtPage\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
-      "start": 1712132710542,
-      "end": 1712132710556,
+      "start": 1712136054138,
+      "end": 1712136054409,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -51,123 +51,123 @@
     },
     {
       "name": "vite:json",
-      "start": 1712132710556,
-      "end": 1712132710556,
+      "start": 1712136054409,
+      "end": 1712136054409,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712132710556,
-      "end": 1712132710556,
+      "start": 1712136054409,
+      "end": 1712136054409,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1712132710557,
-      "end": 1712132710557,
+      "start": 1712136054410,
+      "end": 1712136054410,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712132710557,
-      "end": 1712132710557,
+      "start": 1712136054410,
+      "end": 1712136054410,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712132710557,
-      "end": 1712132710557,
+      "start": 1712136054410,
+      "end": 1712136054410,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712132710557,
-      "end": 1712132710557,
+      "start": 1712136054411,
+      "end": 1712136054411,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712132710557,
-      "end": 1712132710557,
+      "start": 1712136054411,
+      "end": 1712136054411,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712132710558,
-      "end": 1712132710558,
+      "start": 1712136054411,
+      "end": 1712136054412,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712132710558,
-      "end": 1712132710558,
+      "start": 1712136054412,
+      "end": 1712136054412,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712132710558,
-      "end": 1712132710558,
+      "start": 1712136054413,
+      "end": 1712136054413,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712132710558,
-      "end": 1712132710558,
+      "start": 1712136054413,
+      "end": 1712136054413,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712132710558,
-      "end": 1712132710558,
+      "start": 1712136054413,
+      "end": 1712136054413,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712132710558,
-      "end": 1712132710559,
+      "start": 1712136054414,
+      "end": 1712136054414,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054414,
+      "end": 1712136054414,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054414,
+      "end": 1712136054414,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054414,
+      "end": 1712136054414,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054414,
+      "end": 1712136054414,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054415,
+      "end": 1712136054415,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712132710559,
-      "end": 1712132710559,
+      "start": 1712136054415,
+      "end": 1712136054415,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { definePageMeta } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/composables';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = _resolveComponent(\"NuxtPage\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
-      "start": 1712132710560,
-      "end": 1712132710571,
+      "start": 1712136054416,
+      "end": 1712136054429,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -180,15 +180,15 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1712132710573,
-      "end": 1712132710574,
+      "start": 1712136054432,
+      "end": 1712136054435,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "const __nuxt_page_meta = {\n      alias: [\"/\", \"\", \"/home\"]\n    }\nexport default __nuxt_page_meta",
-      "start": 1712132710576,
-      "end": 1712132710578,
+      "start": 1712136054440,
+      "end": 1712136054442,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -201,38 +201,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712132710578,
-      "end": 1712132710578,
+      "start": 1712136054444,
+      "end": 1712136054444,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712132710579,
-      "end": 1712132710579,
+      "start": 1712136054444,
+      "end": 1712136054444,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1712132710580,
-      "end": 1712132710581,
+      "start": 1712136054446,
+      "end": 1712136054446,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712132710583,
-      "end": 1712132710583,
+      "start": 1712136054449,
+      "end": 1712136054449,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712132710583,
-      "end": 1712132710584,
+      "start": 1712136054450,
+      "end": 1712136054450,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712132710584,
-      "end": 1712132710584,
+      "start": 1712136054450,
+      "end": 1712136054450,
       "order": "normal"
     }
   ]

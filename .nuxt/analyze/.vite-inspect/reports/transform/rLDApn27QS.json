@@ -4,159 +4,159 @@
     {
       "name": "vite:load-fallback",
       "result": "import { createPersistedState } from \"pinia-plugin-persistedstate\";\nimport { defineNuxtPlugin, useRuntimeConfig } from \"#app\";\nimport { persistedState } from \"#imports\";\nexport default defineNuxtPlugin((nuxtApp) => {\n  const {\n    cookieOptions,\n    debug,\n    storage\n  } = useRuntimeConfig().public.persistedState;\n  const pinia = nuxtApp.$pinia;\n  pinia.use(createPersistedState({\n    storage: storage === \"cookies\" ? persistedState.cookiesWithOptions(cookieOptions) : persistedState[storage],\n    debug\n  }));\n});\n",
-      "start": 1712132709346,
-      "end": 1712132709452,
+      "start": 1712136052629,
+      "end": 1712136052756,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712132709452,
-      "end": 1712132709452,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052756,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052756,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712132709453,
-      "end": 1712132709453,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712132709454,
-      "end": 1712132709454,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712132709454,
-      "end": 1712132709454,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712132709454,
-      "end": 1712132709454,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712132709454,
-      "end": 1712132709454,
+      "start": 1712136052757,
+      "end": 1712136052757,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { persistedState } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/storages';\nimport { createPersistedState } from \"pinia-plugin-persistedstate\";\nimport { defineNuxtPlugin, useRuntimeConfig } from \"#app\";\nexport default defineNuxtPlugin((nuxtApp) => {\n  const {\n    cookieOptions,\n    debug,\n    storage\n  } = useRuntimeConfig().public.persistedState;\n  const pinia = nuxtApp.$pinia;\n  pinia.use(createPersistedState({\n    storage: storage === \"cookies\" ? persistedState.cookiesWithOptions(cookieOptions) : persistedState[storage],\n    debug\n  }));\n});\n",
-      "start": 1712132709454,
-      "end": 1712132709455,
+      "start": 1712136052757,
+      "end": 1712136052760,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -169,50 +169,50 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1712132709455,
-      "end": 1712132709456,
+      "start": 1712136052760,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712132709456,
-      "end": 1712132709456,
+      "start": 1712136052761,
+      "end": 1712136052761,
       "order": "normal"
     }
   ]
