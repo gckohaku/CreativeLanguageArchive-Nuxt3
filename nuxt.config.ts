@@ -12,6 +12,4 @@ export default defineNuxtConfig({
   app: {
     baseURL: (process.env.NODE_ENV === "production") ? "/CreativeLanguageArchive-Nuxt3" : "/",
   },
-
-  target: "static",
 });
