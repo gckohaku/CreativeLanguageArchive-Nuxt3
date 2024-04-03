@@ -5025,7 +5025,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.redirect,
-    component: () => import("./_nuxt/Content-DgSk3PNv.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/Content-BpH2HZGU.js").then((m) => m.default || m)
   },
   {
     name: "content-id",
@@ -5033,7 +5033,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.redirect,
-    component: () => import("./_nuxt/_id_-1FPkj-Yw.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_id_-BDlPiDy4.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "Index",
@@ -5049,7 +5049,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect,
-    component: () => import("./_nuxt/list-CMjEtfMG.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/list-DqryLGRH.js").then((m) => m.default || m)
   },
   {
     name: "Random",
@@ -5065,7 +5065,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect,
-    component: () => import("./_nuxt/tag-list-CU2oLANA.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/tag-list-BfdntnHU.js").then((m) => m.default || m)
   },
   {
     name: "tag-tag",
@@ -5073,7 +5073,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect,
-    component: () => import("./_nuxt/_tag_-DxZin9ce.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_tag_-D53YBV8N.js").then((m) => m.default || m)
   },
   {
     name: "TagContents",
@@ -5081,7 +5081,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect,
-    component: () => import("./_nuxt/TagContents-B6csDpLu.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/TagContents-DOE7cETb.js").then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -7566,9 +7566,9 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtPage = __nuxt_component_0;
   _push(`<!--[-->`);
   _push(ssrRenderComponent(_component_Header, null, null, _parent));
-  _push(`<div data-v-563b7ff7>`);
+  _push(`<div data-v-588c527d>`);
   _push(ssrRenderComponent(_component_NuxtPage, null, null, _parent));
-  _push(`</div><div class="copyright" data-v-563b7ff7>©gckohaku 2022-2024 (alpha-9)</div><!--]-->`);
+  _push(`</div><div class="copyright" data-v-588c527d>©gckohaku 2022-2024 (alpha-9-nuxt3)</div><!--]-->`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
@@ -7576,7 +7576,7 @@ _sfc_main$2.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-563b7ff7"]]);
+const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-588c527d"]]);
 const _sfc_main$1 = {
   __name: "nuxt-error-page",
   __ssrInlineRender: true,

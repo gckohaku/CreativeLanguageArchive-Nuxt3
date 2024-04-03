@@ -3,7 +3,7 @@
 	<div>
 		<NuxtPage />
 	</div>
-	<div class="copyright">©gckohaku 2022-2024 (alpha-9)</div>
+	<div class="copyright">©gckohaku 2022-2024 (alpha-9-nuxt3)</div>
 </template>
 
 <style scoped>
