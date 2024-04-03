@@ -5,12 +5,12 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     app: {
-      baseURL: "/CreativeLanguageArchive-Nuxt3",
+      baseURL: (process.env.NODE_ENV === "production") ? "/CreativeLanguageArchive-Nuxt3" : "/",
     },
   },
 
   app: {
-    baseURL: "/CreativeLanguageArchive-Nuxt3",
+    baseURL: (process.env.NODE_ENV === "production") ? "/CreativeLanguageArchive-Nuxt3" : "/",
   },
 
   target: "static",
