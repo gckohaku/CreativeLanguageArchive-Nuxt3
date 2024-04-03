@@ -3,39 +3,39 @@
   "transforms": [
     {
       "name": "vite:vue",
-      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-220f72fd\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"content-list\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Index',\n  setup(__props) {\n\nconst storeContents = contentsStore();\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ContentList = _resolveComponent(\"ContentList\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_ContentList, {\n      contents: _unref(storeContents).contentsList\n    }, null, 8, [\"contents\"])\n  ]))\n}\n}\n\n})",
-      "start": 1712048461503,
-      "end": 1712048461503
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-ffdb3a7b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"section\", { class: \"before-index\" }, [\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1))\nconst _hoisted_2 = { class: \"index-container\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Index',\n  setup(__props) {\n\n\ndefinePageMeta({\n\talias: [\"/\", \"\", \"/home\"],\n});\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_NuxtPage),\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"リスト\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"タグ一覧\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"ランダム\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ], 64))\n}\n}\n\n})",
+      "start": 1712132710525,
+      "end": 1712132710525
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712048461504,
-      "end": 1712048461504,
+      "start": 1712132710525,
+      "end": 1712132710525,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712048461504,
-      "end": 1712048461504,
+      "start": 1712132710525,
+      "end": 1712132710525,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712048461504,
-      "end": 1712048461504,
+      "start": 1712132710525,
+      "end": 1712132710525,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712048461504,
-      "end": 1712048461504,
+      "start": 1712132710525,
+      "end": 1712132710525,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-220f72fd\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"content-list\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    return (_ctx, _cache) => {\n      const _component_ContentList = _resolveComponent(\"ContentList\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createVNode(_component_ContentList, {\n          contents: _unref(storeContents).contentsList\n        }, null, 8, [\"contents\"])\n      ]);\n    };\n  }\n});\n",
-      "start": 1712048461504,
-      "end": 1712048461628,
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = _resolveComponent(\"NuxtPage\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
+      "start": 1712132710525,
+      "end": 1712132710556,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -43,131 +43,131 @@
           "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Index.vue?vue&type=script&setup=true&lang.ts"
         ],
         "sourcesContent": [
-          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-220f72fd\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"content-list\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Index',\n  setup(__props) {\n\nconst storeContents = contentsStore();\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ContentList = _resolveComponent(\"ContentList\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_ContentList, {\n      contents: _unref(storeContents).contentsList\n    }, null, 8, [\"contents\"])\n  ]))\n}\n}\n\n})"
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-ffdb3a7b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"section\", { class: \"before-index\" }, [\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1))\nconst _hoisted_2 = { class: \"index-container\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Index',\n  setup(__props) {\n\n\ndefinePageMeta({\n\talias: [\"/\", \"\", \"/home\"],\n});\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_NuxtPage),\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"リスト\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"タグ一覧\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"ランダム\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ], 64))\n}\n}\n\n})"
         ],
-        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,oBAAoB,mBAAmB,eAAe,cAAc,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAEhO,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,eAAe;AAG3C,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,gBAAgB,cAAc;AAEpC,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,yBAAyB,kBAAkB,aAAa;AAE9D,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D,aAAa,wBAAwB;AAAA,UACnC,UAAU,OAAO,aAAa,EAAE;AAAA,QAClC,GAAG,MAAM,GAAG,CAAC,UAAU,CAAC;AAAA,MAC1B,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,oBAAoB,mBAAmB,eAAe,cAAc,sBAAsB,qBAAqB,mBAAmB,kBAAkB,WAAW,UAAU,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAE3U,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,WAAW,EAAE,OAAO,eAAe,GAAG;AAAA,EAC5G,oCAAoB,MAAM,MAAM,WAAW;AAAA,EAC3C,oCAAoB,KAAK,MAAM;AAAA,IAC7B,iCAAiB,gDAAgD;AAAA,IACjE,oCAAoB,IAAI;AAAA,IACxB,iCAAiB,uBAAuB;AAAA,EACvD,CAAC;AAAA,EACY,oCAAoB,KAAK,MAAM;AAAA,IAC7B,iCAAiB,oBAAoB;AAAA,IACrC,oCAAoB,IAAI;AAAA,IACxB,iCAAiB,+BAA+B;AAAA,EAC/D,CAAC;AACH,GAAG,EAAE,CAAC;AACN,MAAM,aAAa,EAAE,OAAO,kBAAkB;AAG9C,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,mBAAe;AAAA,MACd,OAAO,CAAC,KAAK,IAAI,OAAO;AAAA,IACzB,CAAC;AAED,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,sBAAsB,kBAAkB,UAAU;AACxD,YAAM,sBAAsB,kBAAkB,UAAU;AAExD,aAAQ,WAAW,GAAG,oBAAoB,WAAW,MAAM;AAAA,QACzD,aAAa,mBAAmB;AAAA,QAChC;AAAA,QACA,oBAAoB,OAAO,YAAY;AAAA,UACrC,oBAAoB,MAAM,MAAM;AAAA,YAC9B,oBAAoB,MAAM,MAAM;AAAA,cAC9B,aAAa,qBAAqB,EAAE,IAAI,QAAQ,GAAG;AAAA,gBACjD,SAAS,SAAS,MAAM;AAAA,kBACtB,iBAAiB,KAAK;AAAA,gBACxB,CAAC;AAAA,gBACD,GAAG;AAAA,cACL,CAAC;AAAA,YACH,CAAC;AAAA,YACD,oBAAoB,MAAM,MAAM;AAAA,cAC9B,aAAa,qBAAqB,EAAE,IAAI,YAAY,GAAG;AAAA,gBACrD,SAAS,SAAS,MAAM;AAAA,kBACtB,iBAAiB,MAAM;AAAA,gBACzB,CAAC;AAAA,gBACD,GAAG;AAAA,cACL,CAAC;AAAA,YACH,CAAC;AAAA,YACD,oBAAoB,MAAM,MAAM;AAAA,cAC9B,aAAa,qBAAqB,EAAE,IAAI,UAAU,GAAG;AAAA,gBACnD,SAAS,SAAS,MAAM;AAAA,kBACtB,iBAAiB,MAAM;AAAA,gBACzB,CAAC;AAAA,gBACD,GAAG;AAAA,cACL,CAAC;AAAA,YACH,CAAC;AAAA,UACH,CAAC;AAAA,QACH,CAAC;AAAA,MACH,GAAG,EAAE;AAAA,IACP;AAAA,EACA;AAEA,CAAC;",
         "names": []
       }
     },
     {
       "name": "vite:json",
-      "start": 1712048461628,
-      "end": 1712048461628,
+      "start": 1712132710556,
+      "end": 1712132710556,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712048461628,
-      "end": 1712048461628,
+      "start": 1712132710556,
+      "end": 1712132710556,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1712048461628,
-      "end": 1712048461628,
+      "start": 1712132710557,
+      "end": 1712132710557,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712048461628,
-      "end": 1712048461628,
+      "start": 1712132710557,
+      "end": 1712132710557,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712048461628,
-      "end": 1712048461629,
+      "start": 1712132710557,
+      "end": 1712132710557,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712048461629,
-      "end": 1712048461629,
+      "start": 1712132710557,
+      "end": 1712132710557,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712048461629,
-      "end": 1712048461629,
+      "start": 1712132710557,
+      "end": 1712132710557,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712048461630,
-      "end": 1712048461630,
+      "start": 1712132710558,
+      "end": 1712132710558,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712048461630,
-      "end": 1712048461631,
+      "start": 1712132710558,
+      "end": 1712132710558,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712048461631,
-      "end": 1712048461631,
+      "start": 1712132710558,
+      "end": 1712132710558,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712048461631,
-      "end": 1712048461631,
+      "start": 1712132710558,
+      "end": 1712132710558,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712048461631,
-      "end": 1712048461631,
+      "start": 1712132710558,
+      "end": 1712132710558,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710558,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712048461632,
-      "end": 1712048461632,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712048461632,
-      "end": 1712048461633,
+      "start": 1712132710559,
+      "end": 1712132710559,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "result": "import { contentsStore } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/stores/contents.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-220f72fd\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"content-list\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    return (_ctx, _cache) => {\n      const _component_ContentList = _resolveComponent(\"ContentList\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createVNode(_component_ContentList, {\n          contents: _unref(storeContents).contentsList\n        }, null, 8, [\"contents\"])\n      ]);\n    };\n  }\n});\n",
-      "start": 1712048461634,
-      "end": 1712048461641,
+      "result": "import { definePageMeta } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/composables';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = _resolveComponent(\"NuxtPage\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
+      "start": 1712132710560,
+      "end": 1712132710571,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -175,55 +175,57 @@
           ""
         ],
         "names": [],
-        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtO,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7D,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrE,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
       }
     },
     {
       "name": "unctx:transform",
-      "start": 1712048461645,
-      "end": 1712048461645,
+      "start": 1712132710571,
+      "end": 1712132710574,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712048461652,
-      "end": 1712048461652,
+      "start": 1712132710576,
+      "end": 1712132710578,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712048461653,
-      "end": 1712048461653,
+      "start": 1712132710578,
+      "end": 1712132710578,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712048461654,
-      "end": 1712048461654,
+      "start": 1712132710579,
+      "end": 1712132710579,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1712048461656,
-      "end": 1712048461656,
+      "result": "import { default as __nuxt_component_0 } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/page\";\nimport { default as __nuxt_component_1 } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { definePageMeta } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/composables';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n    definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = __nuxt_component_0;\n      const _component_NuxtLink = __nuxt_component_1;\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
+      "start": 1712132710579,
+      "end": 1712132710581,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712048461657,
-      "end": 1712048461657,
+      "result": "import { default as __nuxt_component_0 } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/page\";\nimport { default as __nuxt_component_1 } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { definePageMeta } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.9_floating-vue@5.2.2_sass@1.72.0_unocss@0.58.9_vite@5.2.7/node_modules/nuxt/dist/pages/runtime/composables';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-ffdb3a7b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"section\", { class: \"before-index\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", null, \"このサイトはなに？\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"そういう場所が必要だと感じたから用意した。\")\n  ]),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, [\n    /* @__PURE__ */ _createTextVNode(\"(現在、アルファ版として公開中です。\"),\n    /* @__PURE__ */ _createElementVNode(\"br\"),\n    /* @__PURE__ */ _createTextVNode(\"今後、予告無しに膨大な変更が加えられる可能性があります。)\")\n  ])\n], -1));\nconst _hoisted_2 = { class: \"index-container\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Index\",\n  setup(__props) {\n     false && /*@__PURE__*/ definePageMeta({\n      alias: [\"/\", \"\", \"/home\"]\n    });\n    return (_ctx, _cache) => {\n      const _component_NuxtPage = __nuxt_component_0;\n      const _component_NuxtLink = __nuxt_component_1;\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_NuxtPage),\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"ul\", null, [\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"リスト\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/tag-list\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"タグ一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", null, [\n              _createVNode(_component_NuxtLink, { to: \"/random\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"ランダム\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
+      "start": 1712132710581,
+      "end": 1712132710583,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712048461658,
-      "end": 1712048461658,
+      "start": 1712132710583,
+      "end": 1712132710584,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712048461658,
-      "end": 1712048461658,
+      "start": 1712132710584,
+      "end": 1712132710584,
       "order": "normal"
     }
   ]

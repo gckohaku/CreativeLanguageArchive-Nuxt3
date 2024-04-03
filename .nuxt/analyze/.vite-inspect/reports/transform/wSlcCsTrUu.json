@@ -4,99 +4,218 @@
     {
       "name": "vite:vue",
       "result": "\n/* style here */\n",
-      "start": 1712048461516,
-      "end": 1712048461516
+      "start": 1712132710531,
+      "end": 1712132710531
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712048461516,
-      "end": 1712048461516,
+      "start": 1712132710531,
+      "end": 1712132710531,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712048461516,
-      "end": 1712048461516,
+      "start": 1712132710531,
+      "end": 1712132710531,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712048461516,
-      "end": 1712048461516,
+      "start": 1712132710531,
+      "end": 1712132710531,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "result": "[Error]",
-      "start": 1712048461516,
-      "end": 1712048461518,
+      "result": "",
+      "start": 1712132710531,
+      "end": 1712132710646,
       "order": "normal",
-      "error": {
-        "message": "Preprocessor dependency \"sass\" not found. Did you install it? Try `pnpm add -D sass`.",
-        "stack": [
-          {
-            "functionName": "loadPreprocessorPath",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
-            "lineNumber": 32628,
-            "columnNumber": 19,
-            "source": "    at loadPreprocessorPath (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32628:19)"
-          },
-          {
-            "functionName": "process",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
-            "lineNumber": 32761,
-            "columnNumber": 30,
-            "source": "    at process (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32761:30)"
-          },
-          {
-            "functionName": "compileCSSPreprocessors",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
-            "lineNumber": 32066,
-            "columnNumber": 36,
-            "source": "    at compileCSSPreprocessors (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32066:36)"
-          },
-          {
-            "functionName": "compileCSS",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
-            "lineNumber": 32116,
-            "columnNumber": 42,
-            "source": "    at compileCSS (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:32116:42)"
-          },
-          {
-            "functionName": "async Object.transform",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js",
-            "lineNumber": 31514,
-            "columnNumber": 56,
-            "source": "    at async Object.transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite@5.2.7/node_modules/vite/dist/node/chunks/dep-C-KAszbv.js:31514:56)"
-          },
-          {
-            "fileName": "async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs",
-            "lineNumber": 377,
-            "columnNumber": 17,
-            "source": "    at async file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/vite-plugin-inspect@0.8.3_@nuxt+kit@3.11.1_vite@5.2.7/node_modules/vite-plugin-inspect/dist/index.mjs:377:17"
-          },
-          {
-            "functionName": "async transform",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
-            "lineNumber": 18497,
-            "columnNumber": 16,
-            "source": "    at async transform (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18497:16)"
-          },
-          {
-            "functionName": "async ModuleLoader.addModuleSource",
-            "fileName": "file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js",
-            "lineNumber": 18713,
-            "columnNumber": 36,
-            "source": "    at async ModuleLoader.addModuleSource (file:///home/gckohaku/repos/Nuxt3-LanguageArchive/node_modules/.pnpm/rollup@4.13.2/node_modules/rollup/dist/es/shared/node-entry.js:18713:36)"
-          }
-        ],
-        "raw": {
-          "code": "PLUGIN_ERROR",
-          "plugin": "vite:css",
-          "hook": "transform",
-          "id": "/home/gckohaku/repos/Nuxt3-LanguageArchive/pages/Random.vue?vue&type=style&index=0&scoped=17541a1f&lang.scss"
-        }
+      "sourcemaps": {
+        "mappings": ""
       }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712132710646,
+      "end": 1712132710646,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712132710646,
+      "end": 1712132710646,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712132710646,
+      "end": 1712132710646,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "",
+      "start": 1712132710646,
+      "end": 1712132710650,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712132710650,
+      "end": 1712132710650,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712132710650,
+      "end": 1712132710650,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712132710650,
+      "end": 1712132710650,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1712132710650,
+      "end": 1712132710650,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712132710650,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712132710651,
+      "end": 1712132710651,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712132710651,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712132710652,
+      "end": 1712132710652,
+      "order": "normal"
     }
   ]
 }
