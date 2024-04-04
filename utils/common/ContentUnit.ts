@@ -1,7 +1,7 @@
 export interface ContentUnit {
 	id: string;
 	title: string;
-	creatingDate: string;
+	createdDate: string;
 	images: string[];
 	content: string;
 	tags: string[];

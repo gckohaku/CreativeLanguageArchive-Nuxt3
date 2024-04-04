@@ -4,38 +4,38 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Content',\n  setup(__props) {\n\nconst storeContents = contentsStore();\n\nconst contentsData = storeContents.contentsList;\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ContentArea = _resolveComponent(\"ContentArea\")!\n\n  return (_openBlock(), _createBlock(_component_ContentArea, {\n    data: _unref(contentsData).find((ctn) => ctn.id === _ctx.$route.params.id)\n  }, null, 8, [\"data\"]))\n}\n}\n\n})",
-      "start": 1712137621736,
-      "end": 1712137621736
+      "start": 1712259229160,
+      "end": 1712259229160
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712137621736,
-      "end": 1712137621736,
+      "start": 1712259229160,
+      "end": 1712259229160,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712137621736,
-      "end": 1712137621736,
+      "start": 1712259229160,
+      "end": 1712259229160,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712137621736,
-      "end": 1712137621736,
+      "start": 1712259229160,
+      "end": 1712259229160,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712137621736,
-      "end": 1712137621736,
+      "start": 1712259229160,
+      "end": 1712259229160,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Content\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    const contentsData = storeContents.contentsList;\n    return (_ctx, _cache) => {\n      const _component_ContentArea = _resolveComponent(\"ContentArea\");\n      return _openBlock(), _createBlock(_component_ContentArea, {\n        data: _unref(contentsData).find((ctn) => ctn.id === _ctx.$route.params.id)\n      }, null, 8, [\"data\"]);\n    };\n  }\n});\n",
-      "start": 1712137621738,
-      "end": 1712137622046,
+      "start": 1712259229385,
+      "end": 1712259229439,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -51,123 +51,123 @@
     },
     {
       "name": "vite:json",
-      "start": 1712137622046,
-      "end": 1712137622047,
+      "start": 1712259229440,
+      "end": 1712259229440,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712137622047,
-      "end": 1712137622047,
+      "start": 1712259229440,
+      "end": 1712259229440,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1712137622047,
-      "end": 1712137622047,
+      "start": 1712259229440,
+      "end": 1712259229441,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712137622047,
-      "end": 1712137622047,
+      "start": 1712259229441,
+      "end": 1712259229441,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712137622048,
-      "end": 1712137622048,
+      "start": 1712259229441,
+      "end": 1712259229441,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712137622048,
-      "end": 1712137622048,
+      "start": 1712259229442,
+      "end": 1712259229442,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712137622048,
-      "end": 1712137622048,
+      "start": 1712259229442,
+      "end": 1712259229442,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712137622049,
-      "end": 1712137622049,
+      "start": 1712259229442,
+      "end": 1712259229443,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712137622049,
-      "end": 1712137622050,
+      "start": 1712259229444,
+      "end": 1712259229444,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712137622050,
-      "end": 1712137622050,
+      "start": 1712259229444,
+      "end": 1712259229444,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712137622050,
-      "end": 1712137622051,
+      "start": 1712259229444,
+      "end": 1712259229445,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712137622051,
-      "end": 1712137622051,
+      "start": 1712259229445,
+      "end": 1712259229445,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712137622051,
-      "end": 1712137622051,
+      "start": 1712259229445,
+      "end": 1712259229445,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712137622051,
-      "end": 1712137622051,
+      "start": 1712259229445,
+      "end": 1712259229445,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712137622052,
-      "end": 1712137622052,
+      "start": 1712259229445,
+      "end": 1712259229445,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712137622052,
-      "end": 1712137622052,
+      "start": 1712259229446,
+      "end": 1712259229446,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712137622052,
-      "end": 1712137622052,
+      "start": 1712259229446,
+      "end": 1712259229446,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712137622052,
-      "end": 1712137622052,
+      "start": 1712259229446,
+      "end": 1712259229446,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712137622053,
-      "end": 1712137622053,
+      "start": 1712259229446,
+      "end": 1712259229454,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { contentsStore } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/stores/contents.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Content\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    const contentsData = storeContents.contentsList;\n    return (_ctx, _cache) => {\n      const _component_ContentArea = _resolveComponent(\"ContentArea\");\n      return _openBlock(), _createBlock(_component_ContentArea, {\n        data: _unref(contentsData).find((ctn) => ctn.id === _ctx.$route.params.id)\n      }, null, 8, [\"data\"]);\n    };\n  }\n});\n",
-      "start": 1712137622055,
-      "end": 1712137622072,
+      "start": 1712259229454,
+      "end": 1712259229469,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -180,27 +180,27 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1712137622077,
-      "end": 1712137622077,
+      "start": 1712259229474,
+      "end": 1712259229474,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712137622085,
-      "end": 1712137622085,
+      "start": 1712259229480,
+      "end": 1712259229480,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712137622085,
-      "end": 1712137622085,
+      "start": 1712259229481,
+      "end": 1712259229481,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
       "result": "import { PageRouteSymbol as __nuxt_route_symbol } from '#app/components/injections';\nimport { contentsStore } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/stores/contents.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Content\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    const contentsData = storeContents.contentsList;\n    return (_ctx, _cache) => {\n      const _component_ContentArea = _resolveComponent(\"ContentArea\");\n      return _openBlock(), _createBlock(_component_ContentArea, {\n        data: _unref(contentsData).find((ctn) => ctn.id === (_ctx._.provides[__nuxt_route_symbol] || _ctx.$route).params.id)\n      }, null, 8, [\"data\"]);\n    };\n  }\n});\n",
-      "start": 1712137622086,
-      "end": 1712137622087,
+      "start": 1712259229481,
+      "end": 1712259229482,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -214,26 +214,26 @@
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/home/gckohaku/repos/Nuxt3-LanguageArchive/components/ContentArea.vue\";\nimport { PageRouteSymbol as __nuxt_route_symbol } from '#app/components/injections';\nimport { contentsStore } from '/home/gckohaku/repos/Nuxt3-LanguageArchive/stores/contents.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Content\",\n  setup(__props) {\n    const storeContents = contentsStore();\n    const contentsData = storeContents.contentsList;\n    return (_ctx, _cache) => {\n      const _component_ContentArea = __nuxt_component_0;\n      return _openBlock(), _createBlock(_component_ContentArea, {\n        data: _unref(contentsData).find((ctn) => ctn.id === (_ctx._.provides[__nuxt_route_symbol] || _ctx.$route).params.id)\n      }, null, 8, [\"data\"]);\n    };\n  }\n});\n",
-      "start": 1712137622088,
-      "end": 1712137622088,
+      "start": 1712259229483,
+      "end": 1712259229483,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712137622091,
-      "end": 1712137622091,
+      "start": 1712259229486,
+      "end": 1712259229486,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712137622092,
-      "end": 1712137622092,
+      "start": 1712259229486,
+      "end": 1712259229486,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712137622092,
-      "end": 1712137622092,
+      "start": 1712259229487,
+      "end": 1712259229487,
       "order": "normal"
     }
   ]

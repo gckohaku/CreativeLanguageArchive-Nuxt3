@@ -3,12 +3,17 @@
 definePageMeta({
 	alias: ["/", "", "/home"],
 });
+
+const {data: response} = await useFetch("https://script.google.com/macros/s/AKfycbxQ_PGpmrZl1ikJWEg9JJ136OVSIit8Qq-bR0ABX_JiCjcvH3U4TKpCArxA7NY_xgHm/exec?sheetName=tags", {headers: {"Content-Type": "application/x-www-form-urlencoded", Accept: "application/json"}});
+
+
+
 </script>
 
 <template>
 	<NuxtPage />
 	<section class="before-index">
-		<h2>このサイトはなに？</h2>
+		<h2>このサイトはなに？</h2>"
 		<p>このサイトは、私が制作している創作言語 (人工言語) の画像をまとめておくためのサイトです。<br>そういう場所が必要だと感じたから用意した。</p>
 		<p>(現在、アルファ版として公開中です。<br>今後、予告無しに膨大な変更が加えられる可能性があります。)</p>
 	</section>
@@ -26,6 +31,8 @@ definePageMeta({
 			</li>
 		</ul>
 	</div>
+
+	<div>{{ response }}</div>
 </template>
 
 <style scoped lang="scss">
